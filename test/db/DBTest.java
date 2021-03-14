@@ -77,7 +77,7 @@ class DBTest
     void testInsertData()
     {
         logger.debug("testInsertData()...");
-        domain.Data data = new domain.Data(0.25, 0.35, 0.45, 0.55);
+        domain.Data data = new domain.Data(0.25, 0.35, 0.45, 0.55, 0.65, 0.75);
         try
         {
             this.dbManager.insert(data);
